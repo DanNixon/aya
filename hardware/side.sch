@@ -1,0 +1,2034 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SparkFun-Boards:SPARKFUN_PRO_MICRO B?
+U 1 1 601241C2
+P 3450 6100
+AR Path="/601241C2" Ref="B?"  Part="1" 
+AR Path="/60119728/601241C2" Ref="B?"  Part="1" 
+AR Path="/60116EF8/601241C2" Ref="B?"  Part="1" 
+AR Path="/601213E8/601241C2" Ref="B1"  Part="1" 
+AR Path="/60124365/601241C2" Ref="B2"  Part="1" 
+F 0 "B2" H 3450 7010 45  0000 C CNN
+F 1 "SPARKFUN_PRO_MICRO" H 3450 6926 45  0000 C CNN
+F 2 "Boards:SPARKFUN_PRO_MICRO" H 3450 6900 20  0001 C CNN
+F 3 "" H 3450 6100 50  0001 C CNN
+	1    3450 6100
+	1    0    0    -1  
+$EndComp
+Text Label 10100 3000 0    50   ~ 0
+SDA
+Text Label 10100 2900 0    50   ~ 0
+SCL
+Wire Wire Line
+	10000 2900 10100 2900
+Wire Wire Line
+	10100 3000 10000 3000
+Wire Wire Line
+	10000 3100 10100 3100
+$Comp
+L Device:R R?
+U 1 1 601241F1
+P 9750 4500
+AR Path="/60119728/601241F1" Ref="R?"  Part="1" 
+AR Path="/60116EF8/601241F1" Ref="R?"  Part="1" 
+AR Path="/601213E8/601241F1" Ref="R2"  Part="1" 
+AR Path="/60124365/601241F1" Ref="R4"  Part="1" 
+F 0 "R4" H 9820 4546 50  0000 L CNN
+F 1 "4K7" H 9820 4455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9680 4500 50  0001 C CNN
+F 3 "~" H 9750 4500 50  0001 C CNN
+	1    9750 4500
+	0    1    1    0   
+$EndComp
+Text Label 9500 4000 2    50   ~ 0
+SCL
+Text Label 9500 4500 2    50   ~ 0
+SDA
+Wire Wire Line
+	9600 4000 9500 4000
+Wire Wire Line
+	9600 4500 9500 4500
+Text Label 10100 3100 0    50   ~ 0
+GND
+Text Label 10000 4500 0    50   ~ 0
+VCC
+$Comp
+L Device:R R?
+U 1 1 601241EB
+P 9750 4000
+AR Path="/60119728/601241EB" Ref="R?"  Part="1" 
+AR Path="/60116EF8/601241EB" Ref="R?"  Part="1" 
+AR Path="/601213E8/601241EB" Ref="R1"  Part="1" 
+AR Path="/60124365/601241EB" Ref="R3"  Part="1" 
+F 0 "R3" H 9820 4046 50  0000 L CNN
+F 1 "4K7" H 9820 3955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9680 4000 50  0001 C CNN
+F 3 "~" H 9750 4000 50  0001 C CNN
+	1    9750 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9900 4500 10000 4500
+Text Label 10000 4000 0    50   ~ 0
+VCC
+Wire Wire Line
+	9900 4000 10000 4000
+Text Label 4100 5650 0    50   ~ 0
+GND
+Text Label 2800 5750 2    50   ~ 0
+GND
+Text Label 4100 5850 0    50   ~ 0
+VCC
+Wire Wire Line
+	3900 5650 4100 5650
+Wire Wire Line
+	4100 5850 3900 5850
+Wire Wire Line
+	2800 5750 2900 5750
+Wire Wire Line
+	2900 5750 2900 5850
+Wire Wire Line
+	2900 5850 3000 5850
+Connection ~ 2900 5750
+Wire Wire Line
+	2900 5750 3000 5750
+Text Label 2800 5950 2    50   ~ 0
+SDA
+Text Label 2800 6050 2    50   ~ 0
+SCL
+Wire Wire Line
+	2800 5950 3000 5950
+Wire Wire Line
+	2800 6050 3000 6050
+Text Label 8250 1400 0    50   ~ 0
+R1
+Text Label 8250 1900 0    50   ~ 0
+R2
+Text Label 8250 2400 0    50   ~ 0
+R3
+Text Label 8250 2900 0    50   ~ 0
+R4
+Text Label 8250 3400 0    50   ~ 0
+R5
+Text Label 2000 4000 3    50   ~ 0
+C1
+Text Label 3000 4000 3    50   ~ 0
+C2
+Text Label 4000 4000 3    50   ~ 0
+C3
+Text Label 5000 4000 3    50   ~ 0
+C4
+Text Label 6000 4000 3    50   ~ 0
+C5
+Text Label 7000 4000 3    50   ~ 0
+C6
+Text Label 8000 4000 3    50   ~ 0
+C7
+Text Label 2800 6150 2    50   ~ 0
+R1
+Text Label 2800 6250 2    50   ~ 0
+R2
+Text Label 2800 6350 2    50   ~ 0
+R3
+Text Label 2800 6450 2    50   ~ 0
+R4
+Text Label 2800 6550 2    50   ~ 0
+R5
+Wire Wire Line
+	3000 6150 2800 6150
+Wire Wire Line
+	2800 6250 3000 6250
+Wire Wire Line
+	3000 6350 2800 6350
+Wire Wire Line
+	2800 6450 3000 6450
+Wire Wire Line
+	3000 6550 2800 6550
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B884
+P 3500 2050
+AR Path="/6015B884" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B884" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B884" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B884" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B884" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B884" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B884" Ref="SW47"  Part="1" 
+AR Path="/601213E8/6015B884" Ref="SW12"  Part="1" 
+F 0 "SW47" H 3500 2335 50  0000 C CNN
+F 1 "32" H 3500 2244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3500 2250 50  0001 C CNN
+F 3 "~" H 3500 2250 50  0001 C CNN
+	1    3500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B88A
+P 4500 2050
+AR Path="/6015B88A" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B88A" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B88A" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B88A" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B88A" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B88A" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B88A" Ref="SW52"  Part="1" 
+AR Path="/601213E8/6015B88A" Ref="SW17"  Part="1" 
+F 0 "SW52" H 4500 2335 50  0000 C CNN
+F 1 "42" H 4500 2244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4500 2250 50  0001 C CNN
+F 3 "~" H 4500 2250 50  0001 C CNN
+	1    4500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B890
+P 5500 2050
+AR Path="/6015B890" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B890" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B890" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B890" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B890" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B890" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B890" Ref="SW57"  Part="1" 
+AR Path="/601213E8/6015B890" Ref="SW22"  Part="1" 
+F 0 "SW57" H 5500 2335 50  0000 C CNN
+F 1 "52" H 5500 2244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5500 2250 50  0001 C CNN
+F 3 "~" H 5500 2250 50  0001 C CNN
+	1    5500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B896
+P 6500 2050
+AR Path="/6015B896" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B896" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B896" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B896" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B896" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B896" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B896" Ref="SW62"  Part="1" 
+AR Path="/601213E8/6015B896" Ref="SW27"  Part="1" 
+F 0 "SW62" H 6500 2335 50  0000 C CNN
+F 1 "62" H 6500 2244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6500 2250 50  0001 C CNN
+F 3 "~" H 6500 2250 50  0001 C CNN
+	1    6500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B89C
+P 3500 2550
+AR Path="/6015B89C" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B89C" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B89C" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B89C" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B89C" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B89C" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B89C" Ref="SW48"  Part="1" 
+AR Path="/601213E8/6015B89C" Ref="SW13"  Part="1" 
+F 0 "SW48" H 3500 2835 50  0000 C CNN
+F 1 "33" H 3500 2744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3500 2750 50  0001 C CNN
+F 3 "~" H 3500 2750 50  0001 C CNN
+	1    3500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8A2
+P 3500 3050
+AR Path="/6015B8A2" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8A2" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8A2" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8A2" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8A2" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8A2" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8A2" Ref="SW49"  Part="1" 
+AR Path="/601213E8/6015B8A2" Ref="SW14"  Part="1" 
+F 0 "SW49" H 3500 3335 50  0000 C CNN
+F 1 "34" H 3500 3244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3500 3250 50  0001 C CNN
+F 3 "~" H 3500 3250 50  0001 C CNN
+	1    3500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8A8
+P 4500 2550
+AR Path="/6015B8A8" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8A8" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8A8" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8A8" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8A8" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8A8" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8A8" Ref="SW53"  Part="1" 
+AR Path="/601213E8/6015B8A8" Ref="SW18"  Part="1" 
+F 0 "SW53" H 4500 2835 50  0000 C CNN
+F 1 "43" H 4500 2744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4500 2750 50  0001 C CNN
+F 3 "~" H 4500 2750 50  0001 C CNN
+	1    4500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8AE
+P 5500 2550
+AR Path="/6015B8AE" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8AE" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8AE" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8AE" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8AE" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8AE" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8AE" Ref="SW58"  Part="1" 
+AR Path="/601213E8/6015B8AE" Ref="SW23"  Part="1" 
+F 0 "SW58" H 5500 2835 50  0000 C CNN
+F 1 "53" H 5500 2744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5500 2750 50  0001 C CNN
+F 3 "~" H 5500 2750 50  0001 C CNN
+	1    5500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8B4
+P 6500 2550
+AR Path="/6015B8B4" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8B4" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8B4" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8B4" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8B4" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8B4" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8B4" Ref="SW63"  Part="1" 
+AR Path="/601213E8/6015B8B4" Ref="SW28"  Part="1" 
+F 0 "SW63" H 6500 2835 50  0000 C CNN
+F 1 "63" H 6500 2744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6500 2750 50  0001 C CNN
+F 3 "~" H 6500 2750 50  0001 C CNN
+	1    6500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8BA
+P 6500 3050
+AR Path="/6015B8BA" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8BA" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8BA" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8BA" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8BA" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8BA" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8BA" Ref="SW64"  Part="1" 
+AR Path="/601213E8/6015B8BA" Ref="SW29"  Part="1" 
+F 0 "SW64" H 6500 3335 50  0000 C CNN
+F 1 "64" H 6500 3244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6500 3250 50  0001 C CNN
+F 3 "~" H 6500 3250 50  0001 C CNN
+	1    6500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8C0
+P 5500 3050
+AR Path="/6015B8C0" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8C0" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8C0" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8C0" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8C0" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8C0" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8C0" Ref="SW59"  Part="1" 
+AR Path="/601213E8/6015B8C0" Ref="SW24"  Part="1" 
+F 0 "SW59" H 5500 3335 50  0000 C CNN
+F 1 "54" H 5500 3244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5500 3250 50  0001 C CNN
+F 3 "~" H 5500 3250 50  0001 C CNN
+	1    5500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8C6
+P 4500 3050
+AR Path="/6015B8C6" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8C6" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8C6" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8C6" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8C6" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8C6" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8C6" Ref="SW54"  Part="1" 
+AR Path="/601213E8/6015B8C6" Ref="SW19"  Part="1" 
+F 0 "SW54" H 4500 3335 50  0000 C CNN
+F 1 "44" H 4500 3244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4500 3250 50  0001 C CNN
+F 3 "~" H 4500 3250 50  0001 C CNN
+	1    4500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8CC
+P 7500 2050
+AR Path="/6015B8CC" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8CC" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8CC" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8CC" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8CC" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8CC" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8CC" Ref="SW67"  Part="1" 
+AR Path="/601213E8/6015B8CC" Ref="SW32"  Part="1" 
+F 0 "SW67" H 7500 2335 50  0000 C CNN
+F 1 "72" H 7500 2244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7500 2250 50  0001 C CNN
+F 3 "~" H 7500 2250 50  0001 C CNN
+	1    7500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8D2
+P 7500 2550
+AR Path="/6015B8D2" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8D2" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8D2" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8D2" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8D2" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8D2" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8D2" Ref="SW68"  Part="1" 
+AR Path="/601213E8/6015B8D2" Ref="SW33"  Part="1" 
+F 0 "SW68" H 7500 2835 50  0000 C CNN
+F 1 "73" H 7500 2744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7500 2750 50  0001 C CNN
+F 3 "~" H 7500 2750 50  0001 C CNN
+	1    7500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8D8
+P 7500 3050
+AR Path="/6015B8D8" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8D8" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8D8" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8D8" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8D8" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8D8" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8D8" Ref="SW69"  Part="1" 
+AR Path="/601213E8/6015B8D8" Ref="SW34"  Part="1" 
+F 0 "SW69" H 7500 3335 50  0000 C CNN
+F 1 "74" H 7500 3244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7500 3250 50  0001 C CNN
+F 3 "~" H 7500 3250 50  0001 C CNN
+	1    7500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8DE
+P 3500 1550
+AR Path="/6015B8DE" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8DE" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8DE" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8DE" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8DE" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8DE" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8DE" Ref="SW46"  Part="1" 
+AR Path="/601213E8/6015B8DE" Ref="SW11"  Part="1" 
+F 0 "SW46" H 3500 1835 50  0000 C CNN
+F 1 "31" H 3500 1744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3500 1750 50  0001 C CNN
+F 3 "~" H 3500 1750 50  0001 C CNN
+	1    3500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8E4
+P 6500 1550
+AR Path="/6015B8E4" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8E4" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8E4" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8E4" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8E4" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8E4" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8E4" Ref="SW61"  Part="1" 
+AR Path="/601213E8/6015B8E4" Ref="SW26"  Part="1" 
+F 0 "SW61" H 6500 1835 50  0000 C CNN
+F 1 "61" H 6500 1744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6500 1750 50  0001 C CNN
+F 3 "~" H 6500 1750 50  0001 C CNN
+	1    6500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8EA
+P 5500 1550
+AR Path="/6015B8EA" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8EA" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8EA" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8EA" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8EA" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8EA" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8EA" Ref="SW56"  Part="1" 
+AR Path="/601213E8/6015B8EA" Ref="SW21"  Part="1" 
+F 0 "SW56" H 5500 1835 50  0000 C CNN
+F 1 "51" H 5500 1744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5500 1750 50  0001 C CNN
+F 3 "~" H 5500 1750 50  0001 C CNN
+	1    5500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8F0
+P 4500 1550
+AR Path="/6015B8F0" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8F0" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8F0" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8F0" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8F0" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8F0" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8F0" Ref="SW51"  Part="1" 
+AR Path="/601213E8/6015B8F0" Ref="SW16"  Part="1" 
+F 0 "SW51" H 4500 1835 50  0000 C CNN
+F 1 "41" H 4500 1744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4500 1750 50  0001 C CNN
+F 3 "~" H 4500 1750 50  0001 C CNN
+	1    4500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8F6
+P 7500 1550
+AR Path="/6015B8F6" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8F6" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8F6" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8F6" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8F6" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8F6" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8F6" Ref="SW66"  Part="1" 
+AR Path="/601213E8/6015B8F6" Ref="SW31"  Part="1" 
+F 0 "SW66" H 7500 1835 50  0000 C CNN
+F 1 "71" H 7500 1744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7500 1750 50  0001 C CNN
+F 3 "~" H 7500 1750 50  0001 C CNN
+	1    7500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B8FC
+P 2500 3050
+AR Path="/6015B8FC" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B8FC" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B8FC" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B8FC" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B8FC" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B8FC" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B8FC" Ref="SW44"  Part="1" 
+AR Path="/601213E8/6015B8FC" Ref="SW9"  Part="1" 
+F 0 "SW44" H 2500 3335 50  0000 C CNN
+F 1 "24" H 2500 3244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2500 3250 50  0001 C CNN
+F 3 "~" H 2500 3250 50  0001 C CNN
+	1    2500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B902
+P 7500 3550
+AR Path="/6015B902" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B902" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B902" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B902" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B902" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B902" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B902" Ref="SW70"  Part="1" 
+AR Path="/601213E8/6015B902" Ref="SW35"  Part="1" 
+F 0 "SW70" H 7500 3835 50  0000 C CNN
+F 1 "75" H 7500 3744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7500 3750 50  0001 C CNN
+F 3 "~" H 7500 3750 50  0001 C CNN
+	1    7500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B908
+P 6500 3550
+AR Path="/6015B908" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B908" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B908" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B908" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B908" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B908" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B908" Ref="SW65"  Part="1" 
+AR Path="/601213E8/6015B908" Ref="SW30"  Part="1" 
+F 0 "SW65" H 6500 3835 50  0000 C CNN
+F 1 "65" H 6500 3744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6500 3750 50  0001 C CNN
+F 3 "~" H 6500 3750 50  0001 C CNN
+	1    6500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B90E
+P 5500 3550
+AR Path="/6015B90E" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B90E" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B90E" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B90E" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B90E" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B90E" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B90E" Ref="SW60"  Part="1" 
+AR Path="/601213E8/6015B90E" Ref="SW25"  Part="1" 
+F 0 "SW60" H 5500 3835 50  0000 C CNN
+F 1 "55" H 5500 3744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5500 3750 50  0001 C CNN
+F 3 "~" H 5500 3750 50  0001 C CNN
+	1    5500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B914
+P 2500 1550
+AR Path="/6015B914" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B914" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B914" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B914" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B914" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B914" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B914" Ref="SW41"  Part="1" 
+AR Path="/601213E8/6015B914" Ref="SW6"  Part="1" 
+F 0 "SW41" H 2500 1835 50  0000 C CNN
+F 1 "21" H 2500 1744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2500 1750 50  0001 C CNN
+F 3 "~" H 2500 1750 50  0001 C CNN
+	1    2500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B91A
+P 2500 2050
+AR Path="/6015B91A" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B91A" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B91A" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B91A" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B91A" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B91A" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B91A" Ref="SW42"  Part="1" 
+AR Path="/601213E8/6015B91A" Ref="SW7"  Part="1" 
+F 0 "SW42" H 2500 2335 50  0000 C CNN
+F 1 "22" H 2500 2244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2500 2250 50  0001 C CNN
+F 3 "~" H 2500 2250 50  0001 C CNN
+	1    2500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B920
+P 4500 3550
+AR Path="/6015B920" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B920" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B920" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B920" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B920" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B920" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B920" Ref="SW55"  Part="1" 
+AR Path="/601213E8/6015B920" Ref="SW20"  Part="1" 
+F 0 "SW55" H 4500 3835 50  0000 C CNN
+F 1 "45" H 4500 3744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4500 3750 50  0001 C CNN
+F 3 "~" H 4500 3750 50  0001 C CNN
+	1    4500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B926
+P 2500 2550
+AR Path="/6015B926" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B926" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B926" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B926" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B926" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B926" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B926" Ref="SW43"  Part="1" 
+AR Path="/601213E8/6015B926" Ref="SW8"  Part="1" 
+F 0 "SW43" H 2500 2835 50  0000 C CNN
+F 1 "23" H 2500 2744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2500 2750 50  0001 C CNN
+F 3 "~" H 2500 2750 50  0001 C CNN
+	1    2500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B92C
+P 3500 3550
+AR Path="/6015B92C" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B92C" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B92C" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B92C" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B92C" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B92C" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B92C" Ref="SW50"  Part="1" 
+AR Path="/601213E8/6015B92C" Ref="SW15"  Part="1" 
+F 0 "SW50" H 3500 3835 50  0000 C CNN
+F 1 "35" H 3500 3744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3500 3750 50  0001 C CNN
+F 3 "~" H 3500 3750 50  0001 C CNN
+	1    3500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015B932
+P 2500 3550
+AR Path="/6015B932" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015B932" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B932" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B932" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B932" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015B932" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015B932" Ref="SW45"  Part="1" 
+AR Path="/601213E8/6015B932" Ref="SW10"  Part="1" 
+F 0 "SW45" H 2500 3835 50  0000 C CNN
+F 1 "25" H 2500 3744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2500 3750 50  0001 C CNN
+F 3 "~" H 2500 3750 50  0001 C CNN
+	1    2500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B938
+P 2850 1700
+AR Path="/6015B938" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B938" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B938" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B938" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B938" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B938" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B938" Ref="D41"  Part="1" 
+AR Path="/601213E8/6015B938" Ref="D6"  Part="1" 
+F 0 "D41" V 2896 1620 50  0000 R CNN
+F 1 "D" V 2805 1620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2850 1700 50  0001 C CNN
+F 3 "~" H 2850 1700 50  0001 C CNN
+F 4 "" H 2850 1700 50  0001 C CNN "LCSC"
+	1    2850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B93E
+P 2850 2200
+AR Path="/6015B93E" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B93E" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B93E" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B93E" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B93E" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B93E" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B93E" Ref="D42"  Part="1" 
+AR Path="/601213E8/6015B93E" Ref="D7"  Part="1" 
+F 0 "D42" V 2896 2120 50  0000 R CNN
+F 1 "D" V 2805 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2850 2200 50  0001 C CNN
+F 3 "~" H 2850 2200 50  0001 C CNN
+F 4 "" H 2850 2200 50  0001 C CNN "LCSC"
+	1    2850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B944
+P 2850 2700
+AR Path="/6015B944" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B944" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B944" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B944" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B944" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B944" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B944" Ref="D43"  Part="1" 
+AR Path="/601213E8/6015B944" Ref="D8"  Part="1" 
+F 0 "D43" V 2896 2620 50  0000 R CNN
+F 1 "D" V 2805 2620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2850 2700 50  0001 C CNN
+F 3 "~" H 2850 2700 50  0001 C CNN
+F 4 "" H 2850 2700 50  0001 C CNN "LCSC"
+	1    2850 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B94A
+P 2850 3200
+AR Path="/6015B94A" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B94A" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B94A" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B94A" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B94A" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B94A" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B94A" Ref="D44"  Part="1" 
+AR Path="/601213E8/6015B94A" Ref="D9"  Part="1" 
+F 0 "D44" V 2896 3120 50  0000 R CNN
+F 1 "D" V 2805 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2850 3200 50  0001 C CNN
+F 3 "~" H 2850 3200 50  0001 C CNN
+F 4 "" H 2850 3200 50  0001 C CNN "LCSC"
+	1    2850 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B950
+P 2850 3700
+AR Path="/6015B950" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B950" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B950" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B950" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B950" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B950" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B950" Ref="D45"  Part="1" 
+AR Path="/601213E8/6015B950" Ref="D10"  Part="1" 
+F 0 "D45" V 2896 3620 50  0000 R CNN
+F 1 "D" V 2805 3620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2850 3700 50  0001 C CNN
+F 3 "~" H 2850 3700 50  0001 C CNN
+F 4 "" H 2850 3700 50  0001 C CNN "LCSC"
+	1    2850 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 1550 2850 1550
+Wire Wire Line
+	2700 2050 2850 2050
+Wire Wire Line
+	2700 2550 2850 2550
+Wire Wire Line
+	2700 3050 2850 3050
+Wire Wire Line
+	2700 3550 2850 3550
+Wire Wire Line
+	2850 1850 3000 1850
+Wire Wire Line
+	3000 1850 3000 2350
+Wire Wire Line
+	3000 3850 2850 3850
+Wire Wire Line
+	3000 3850 3000 4000
+Connection ~ 3000 3850
+Wire Wire Line
+	2850 3350 3000 3350
+Connection ~ 3000 3350
+Wire Wire Line
+	3000 3350 3000 3850
+Wire Wire Line
+	2850 2850 3000 2850
+Connection ~ 3000 2850
+Wire Wire Line
+	3000 2850 3000 3350
+Wire Wire Line
+	2850 2350 3000 2350
+Connection ~ 3000 2350
+Wire Wire Line
+	3000 2350 3000 2850
+$Comp
+L Device:D D?
+U 1 1 6015B969
+P 3850 1700
+AR Path="/6015B969" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B969" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B969" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B969" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B969" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B969" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B969" Ref="D46"  Part="1" 
+AR Path="/601213E8/6015B969" Ref="D11"  Part="1" 
+F 0 "D46" V 3896 1620 50  0000 R CNN
+F 1 "D" V 3805 1620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 1700 50  0001 C CNN
+F 3 "~" H 3850 1700 50  0001 C CNN
+F 4 "" H 3850 1700 50  0001 C CNN "LCSC"
+	1    3850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B96F
+P 3850 2200
+AR Path="/6015B96F" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B96F" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B96F" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B96F" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B96F" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B96F" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B96F" Ref="D47"  Part="1" 
+AR Path="/601213E8/6015B96F" Ref="D12"  Part="1" 
+F 0 "D47" V 3896 2120 50  0000 R CNN
+F 1 "D" V 3805 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 2200 50  0001 C CNN
+F 3 "~" H 3850 2200 50  0001 C CNN
+F 4 "" H 3850 2200 50  0001 C CNN "LCSC"
+	1    3850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B975
+P 3850 2700
+AR Path="/6015B975" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B975" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B975" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B975" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B975" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B975" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B975" Ref="D48"  Part="1" 
+AR Path="/601213E8/6015B975" Ref="D13"  Part="1" 
+F 0 "D48" V 3896 2620 50  0000 R CNN
+F 1 "D" V 3805 2620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 2700 50  0001 C CNN
+F 3 "~" H 3850 2700 50  0001 C CNN
+F 4 "" H 3850 2700 50  0001 C CNN "LCSC"
+	1    3850 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B97B
+P 3850 3200
+AR Path="/6015B97B" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B97B" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B97B" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B97B" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B97B" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B97B" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B97B" Ref="D49"  Part="1" 
+AR Path="/601213E8/6015B97B" Ref="D14"  Part="1" 
+F 0 "D49" V 3896 3120 50  0000 R CNN
+F 1 "D" V 3805 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 3200 50  0001 C CNN
+F 3 "~" H 3850 3200 50  0001 C CNN
+F 4 "" H 3850 3200 50  0001 C CNN "LCSC"
+	1    3850 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B981
+P 3850 3700
+AR Path="/6015B981" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B981" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B981" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B981" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B981" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B981" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B981" Ref="D50"  Part="1" 
+AR Path="/601213E8/6015B981" Ref="D15"  Part="1" 
+F 0 "D50" V 3896 3620 50  0000 R CNN
+F 1 "D" V 3805 3620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3850 3700 50  0001 C CNN
+F 3 "~" H 3850 3700 50  0001 C CNN
+F 4 "" H 3850 3700 50  0001 C CNN "LCSC"
+	1    3850 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 1550 3850 1550
+Wire Wire Line
+	3700 2050 3850 2050
+Wire Wire Line
+	3700 2550 3850 2550
+Wire Wire Line
+	3700 3050 3850 3050
+Wire Wire Line
+	3700 3550 3850 3550
+Wire Wire Line
+	3850 1850 4000 1850
+Wire Wire Line
+	4000 1850 4000 2350
+Wire Wire Line
+	4000 3850 3850 3850
+Wire Wire Line
+	4000 3850 4000 4000
+Connection ~ 4000 3850
+Wire Wire Line
+	3850 3350 4000 3350
+Connection ~ 4000 3350
+Wire Wire Line
+	4000 3350 4000 3850
+Wire Wire Line
+	3850 2850 4000 2850
+Connection ~ 4000 2850
+Wire Wire Line
+	4000 2850 4000 3350
+Wire Wire Line
+	3850 2350 4000 2350
+Connection ~ 4000 2350
+Wire Wire Line
+	4000 2350 4000 2850
+$Comp
+L Device:D D?
+U 1 1 6015B99A
+P 4850 1700
+AR Path="/6015B99A" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B99A" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B99A" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B99A" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B99A" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B99A" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B99A" Ref="D51"  Part="1" 
+AR Path="/601213E8/6015B99A" Ref="D16"  Part="1" 
+F 0 "D51" V 4896 1620 50  0000 R CNN
+F 1 "D" V 4805 1620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 1700 50  0001 C CNN
+F 3 "~" H 4850 1700 50  0001 C CNN
+F 4 "" H 4850 1700 50  0001 C CNN "LCSC"
+	1    4850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B9A0
+P 4850 2200
+AR Path="/6015B9A0" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B9A0" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B9A0" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B9A0" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B9A0" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B9A0" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B9A0" Ref="D52"  Part="1" 
+AR Path="/601213E8/6015B9A0" Ref="D17"  Part="1" 
+F 0 "D52" V 4896 2120 50  0000 R CNN
+F 1 "D" V 4805 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 2200 50  0001 C CNN
+F 3 "~" H 4850 2200 50  0001 C CNN
+F 4 "" H 4850 2200 50  0001 C CNN "LCSC"
+	1    4850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B9A6
+P 4850 2700
+AR Path="/6015B9A6" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B9A6" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B9A6" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B9A6" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B9A6" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B9A6" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B9A6" Ref="D53"  Part="1" 
+AR Path="/601213E8/6015B9A6" Ref="D18"  Part="1" 
+F 0 "D53" V 4896 2620 50  0000 R CNN
+F 1 "D" V 4805 2620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 2700 50  0001 C CNN
+F 3 "~" H 4850 2700 50  0001 C CNN
+F 4 "" H 4850 2700 50  0001 C CNN "LCSC"
+	1    4850 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B9AC
+P 4850 3200
+AR Path="/6015B9AC" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B9AC" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B9AC" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B9AC" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B9AC" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B9AC" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B9AC" Ref="D54"  Part="1" 
+AR Path="/601213E8/6015B9AC" Ref="D19"  Part="1" 
+F 0 "D54" V 4896 3120 50  0000 R CNN
+F 1 "D" V 4805 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 3200 50  0001 C CNN
+F 3 "~" H 4850 3200 50  0001 C CNN
+F 4 "" H 4850 3200 50  0001 C CNN "LCSC"
+	1    4850 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B9B2
+P 4850 3700
+AR Path="/6015B9B2" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B9B2" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B9B2" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B9B2" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B9B2" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B9B2" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B9B2" Ref="D55"  Part="1" 
+AR Path="/601213E8/6015B9B2" Ref="D20"  Part="1" 
+F 0 "D55" V 4896 3620 50  0000 R CNN
+F 1 "D" V 4805 3620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 3700 50  0001 C CNN
+F 3 "~" H 4850 3700 50  0001 C CNN
+F 4 "" H 4850 3700 50  0001 C CNN "LCSC"
+	1    4850 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 1550 4850 1550
+Wire Wire Line
+	4700 2050 4850 2050
+Wire Wire Line
+	4700 2550 4850 2550
+Wire Wire Line
+	4700 3050 4850 3050
+Wire Wire Line
+	4700 3550 4850 3550
+Wire Wire Line
+	4850 1850 5000 1850
+Wire Wire Line
+	5000 1850 5000 2350
+Wire Wire Line
+	5000 3850 4850 3850
+Wire Wire Line
+	5000 3850 5000 4000
+Connection ~ 5000 3850
+Wire Wire Line
+	4850 3350 5000 3350
+Connection ~ 5000 3350
+Wire Wire Line
+	5000 3350 5000 3850
+Wire Wire Line
+	4850 2850 5000 2850
+Connection ~ 5000 2850
+Wire Wire Line
+	5000 2850 5000 3350
+Wire Wire Line
+	4850 2350 5000 2350
+Connection ~ 5000 2350
+Wire Wire Line
+	5000 2350 5000 2850
+$Comp
+L Device:D D?
+U 1 1 6015B9CB
+P 5850 1700
+AR Path="/6015B9CB" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B9CB" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B9CB" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B9CB" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B9CB" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B9CB" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B9CB" Ref="D56"  Part="1" 
+AR Path="/601213E8/6015B9CB" Ref="D21"  Part="1" 
+F 0 "D56" V 5896 1620 50  0000 R CNN
+F 1 "D" V 5805 1620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 1700 50  0001 C CNN
+F 3 "~" H 5850 1700 50  0001 C CNN
+F 4 "" H 5850 1700 50  0001 C CNN "LCSC"
+	1    5850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B9D1
+P 5850 2200
+AR Path="/6015B9D1" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B9D1" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B9D1" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B9D1" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B9D1" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B9D1" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B9D1" Ref="D57"  Part="1" 
+AR Path="/601213E8/6015B9D1" Ref="D22"  Part="1" 
+F 0 "D57" V 5896 2120 50  0000 R CNN
+F 1 "D" V 5805 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 2200 50  0001 C CNN
+F 3 "~" H 5850 2200 50  0001 C CNN
+F 4 "" H 5850 2200 50  0001 C CNN "LCSC"
+	1    5850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B9D7
+P 5850 2700
+AR Path="/6015B9D7" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B9D7" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B9D7" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B9D7" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B9D7" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B9D7" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B9D7" Ref="D58"  Part="1" 
+AR Path="/601213E8/6015B9D7" Ref="D23"  Part="1" 
+F 0 "D58" V 5896 2620 50  0000 R CNN
+F 1 "D" V 5805 2620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 2700 50  0001 C CNN
+F 3 "~" H 5850 2700 50  0001 C CNN
+F 4 "" H 5850 2700 50  0001 C CNN "LCSC"
+	1    5850 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B9DD
+P 5850 3200
+AR Path="/6015B9DD" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B9DD" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B9DD" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B9DD" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B9DD" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B9DD" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B9DD" Ref="D59"  Part="1" 
+AR Path="/601213E8/6015B9DD" Ref="D24"  Part="1" 
+F 0 "D59" V 5896 3120 50  0000 R CNN
+F 1 "D" V 5805 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 3200 50  0001 C CNN
+F 3 "~" H 5850 3200 50  0001 C CNN
+F 4 "" H 5850 3200 50  0001 C CNN "LCSC"
+	1    5850 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015B9E3
+P 5850 3700
+AR Path="/6015B9E3" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B9E3" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B9E3" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B9E3" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B9E3" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B9E3" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B9E3" Ref="D60"  Part="1" 
+AR Path="/601213E8/6015B9E3" Ref="D25"  Part="1" 
+F 0 "D60" V 5896 3620 50  0000 R CNN
+F 1 "D" V 5805 3620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 3700 50  0001 C CNN
+F 3 "~" H 5850 3700 50  0001 C CNN
+F 4 "" H 5850 3700 50  0001 C CNN "LCSC"
+	1    5850 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 1550 5850 1550
+Wire Wire Line
+	5700 2050 5850 2050
+Wire Wire Line
+	5700 2550 5850 2550
+Wire Wire Line
+	5700 3050 5850 3050
+Wire Wire Line
+	5700 3550 5850 3550
+Wire Wire Line
+	5850 1850 6000 1850
+Wire Wire Line
+	6000 1850 6000 2350
+Wire Wire Line
+	6000 3850 5850 3850
+Wire Wire Line
+	6000 3850 6000 4000
+Connection ~ 6000 3850
+Wire Wire Line
+	5850 3350 6000 3350
+Connection ~ 6000 3350
+Wire Wire Line
+	6000 3350 6000 3850
+Wire Wire Line
+	5850 2850 6000 2850
+Connection ~ 6000 2850
+Wire Wire Line
+	6000 2850 6000 3350
+Wire Wire Line
+	5850 2350 6000 2350
+Connection ~ 6000 2350
+Wire Wire Line
+	6000 2350 6000 2850
+$Comp
+L Device:D D?
+U 1 1 6015B9FC
+P 6850 1700
+AR Path="/6015B9FC" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015B9FC" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015B9FC" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015B9FC" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015B9FC" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015B9FC" Ref="D?"  Part="1" 
+AR Path="/60124365/6015B9FC" Ref="D61"  Part="1" 
+AR Path="/601213E8/6015B9FC" Ref="D26"  Part="1" 
+F 0 "D61" V 6896 1620 50  0000 R CNN
+F 1 "D" V 6805 1620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6850 1700 50  0001 C CNN
+F 3 "~" H 6850 1700 50  0001 C CNN
+F 4 "" H 6850 1700 50  0001 C CNN "LCSC"
+	1    6850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BA02
+P 6850 2200
+AR Path="/6015BA02" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BA02" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BA02" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BA02" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BA02" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BA02" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BA02" Ref="D62"  Part="1" 
+AR Path="/601213E8/6015BA02" Ref="D27"  Part="1" 
+F 0 "D62" V 6896 2120 50  0000 R CNN
+F 1 "D" V 6805 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6850 2200 50  0001 C CNN
+F 3 "~" H 6850 2200 50  0001 C CNN
+F 4 "" H 6850 2200 50  0001 C CNN "LCSC"
+	1    6850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BA08
+P 6850 2700
+AR Path="/6015BA08" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BA08" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BA08" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BA08" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BA08" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BA08" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BA08" Ref="D63"  Part="1" 
+AR Path="/601213E8/6015BA08" Ref="D28"  Part="1" 
+F 0 "D63" V 6896 2620 50  0000 R CNN
+F 1 "D" V 6805 2620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6850 2700 50  0001 C CNN
+F 3 "~" H 6850 2700 50  0001 C CNN
+F 4 "" H 6850 2700 50  0001 C CNN "LCSC"
+	1    6850 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BA0E
+P 6850 3200
+AR Path="/6015BA0E" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BA0E" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BA0E" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BA0E" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BA0E" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BA0E" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BA0E" Ref="D64"  Part="1" 
+AR Path="/601213E8/6015BA0E" Ref="D29"  Part="1" 
+F 0 "D64" V 6896 3120 50  0000 R CNN
+F 1 "D" V 6805 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6850 3200 50  0001 C CNN
+F 3 "~" H 6850 3200 50  0001 C CNN
+F 4 "" H 6850 3200 50  0001 C CNN "LCSC"
+	1    6850 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BA14
+P 6850 3700
+AR Path="/6015BA14" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BA14" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BA14" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BA14" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BA14" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BA14" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BA14" Ref="D65"  Part="1" 
+AR Path="/601213E8/6015BA14" Ref="D30"  Part="1" 
+F 0 "D65" V 6896 3620 50  0000 R CNN
+F 1 "D" V 6805 3620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6850 3700 50  0001 C CNN
+F 3 "~" H 6850 3700 50  0001 C CNN
+F 4 "" H 6850 3700 50  0001 C CNN "LCSC"
+	1    6850 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 1550 6850 1550
+Wire Wire Line
+	6700 2050 6850 2050
+Wire Wire Line
+	6700 2550 6850 2550
+Wire Wire Line
+	6700 3050 6850 3050
+Wire Wire Line
+	6700 3550 6850 3550
+Wire Wire Line
+	6850 1850 7000 1850
+Wire Wire Line
+	7000 1850 7000 2350
+Wire Wire Line
+	7000 3850 6850 3850
+Wire Wire Line
+	7000 3850 7000 4000
+Connection ~ 7000 3850
+Wire Wire Line
+	6850 3350 7000 3350
+Connection ~ 7000 3350
+Wire Wire Line
+	7000 3350 7000 3850
+Wire Wire Line
+	6850 2850 7000 2850
+Connection ~ 7000 2850
+Wire Wire Line
+	7000 2850 7000 3350
+Wire Wire Line
+	6850 2350 7000 2350
+Connection ~ 7000 2350
+Wire Wire Line
+	7000 2350 7000 2850
+$Comp
+L Device:D D?
+U 1 1 6015BA2D
+P 7850 1700
+AR Path="/6015BA2D" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BA2D" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BA2D" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BA2D" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BA2D" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BA2D" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BA2D" Ref="D66"  Part="1" 
+AR Path="/601213E8/6015BA2D" Ref="D31"  Part="1" 
+F 0 "D66" V 7896 1620 50  0000 R CNN
+F 1 "D" V 7805 1620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7850 1700 50  0001 C CNN
+F 3 "~" H 7850 1700 50  0001 C CNN
+F 4 "" H 7850 1700 50  0001 C CNN "LCSC"
+	1    7850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BA33
+P 7850 2200
+AR Path="/6015BA33" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BA33" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BA33" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BA33" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BA33" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BA33" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BA33" Ref="D67"  Part="1" 
+AR Path="/601213E8/6015BA33" Ref="D32"  Part="1" 
+F 0 "D67" V 7896 2120 50  0000 R CNN
+F 1 "D" V 7805 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7850 2200 50  0001 C CNN
+F 3 "~" H 7850 2200 50  0001 C CNN
+F 4 "" H 7850 2200 50  0001 C CNN "LCSC"
+	1    7850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BA39
+P 7850 2700
+AR Path="/6015BA39" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BA39" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BA39" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BA39" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BA39" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BA39" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BA39" Ref="D68"  Part="1" 
+AR Path="/601213E8/6015BA39" Ref="D33"  Part="1" 
+F 0 "D68" V 7896 2620 50  0000 R CNN
+F 1 "D" V 7805 2620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7850 2700 50  0001 C CNN
+F 3 "~" H 7850 2700 50  0001 C CNN
+F 4 "" H 7850 2700 50  0001 C CNN "LCSC"
+	1    7850 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BA3F
+P 7850 3200
+AR Path="/6015BA3F" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BA3F" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BA3F" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BA3F" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BA3F" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BA3F" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BA3F" Ref="D69"  Part="1" 
+AR Path="/601213E8/6015BA3F" Ref="D34"  Part="1" 
+F 0 "D69" V 7896 3120 50  0000 R CNN
+F 1 "D" V 7805 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7850 3200 50  0001 C CNN
+F 3 "~" H 7850 3200 50  0001 C CNN
+F 4 "" H 7850 3200 50  0001 C CNN "LCSC"
+	1    7850 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BA45
+P 7850 3700
+AR Path="/6015BA45" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BA45" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BA45" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BA45" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BA45" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BA45" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BA45" Ref="D70"  Part="1" 
+AR Path="/601213E8/6015BA45" Ref="D35"  Part="1" 
+F 0 "D70" V 7896 3620 50  0000 R CNN
+F 1 "D" V 7805 3620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7850 3700 50  0001 C CNN
+F 3 "~" H 7850 3700 50  0001 C CNN
+F 4 "" H 7850 3700 50  0001 C CNN "LCSC"
+	1    7850 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 1550 7850 1550
+Wire Wire Line
+	7700 2050 7850 2050
+Wire Wire Line
+	7700 2550 7850 2550
+Wire Wire Line
+	7700 3050 7850 3050
+Wire Wire Line
+	7700 3550 7850 3550
+Wire Wire Line
+	7850 1850 8000 1850
+Wire Wire Line
+	8000 1850 8000 2350
+Wire Wire Line
+	8000 3850 7850 3850
+Wire Wire Line
+	8000 3850 8000 4000
+Connection ~ 8000 3850
+Wire Wire Line
+	7850 3350 8000 3350
+Connection ~ 8000 3350
+Wire Wire Line
+	8000 3350 8000 3850
+Wire Wire Line
+	7850 2850 8000 2850
+Connection ~ 8000 2850
+Wire Wire Line
+	8000 2850 8000 3350
+Wire Wire Line
+	7850 2350 8000 2350
+Connection ~ 8000 2350
+Wire Wire Line
+	8000 2350 8000 2850
+Wire Wire Line
+	2300 1550 2300 1400
+Wire Wire Line
+	2300 1400 3300 1400
+Wire Wire Line
+	7300 1400 7300 1550
+Wire Wire Line
+	2300 2050 2300 1900
+Wire Wire Line
+	2300 1900 3300 1900
+Wire Wire Line
+	7300 1900 7300 2050
+Wire Wire Line
+	7300 2550 7300 2400
+Wire Wire Line
+	7300 2400 6300 2400
+Wire Wire Line
+	2300 2400 2300 2550
+Wire Wire Line
+	2300 3050 2300 2900
+Wire Wire Line
+	2300 2900 3300 2900
+Wire Wire Line
+	7300 2900 7300 3050
+Wire Wire Line
+	7300 3550 7300 3400
+Wire Wire Line
+	7300 3400 6300 3400
+Wire Wire Line
+	2300 3400 2300 3550
+Wire Wire Line
+	3300 3400 3300 3550
+Connection ~ 3300 3400
+Wire Wire Line
+	3300 3400 2300 3400
+Wire Wire Line
+	4300 3400 4300 3550
+Connection ~ 4300 3400
+Wire Wire Line
+	4300 3400 3300 3400
+Wire Wire Line
+	5300 3400 5300 3550
+Connection ~ 5300 3400
+Wire Wire Line
+	5300 3400 4300 3400
+Wire Wire Line
+	6300 3400 6300 3550
+Connection ~ 6300 3400
+Wire Wire Line
+	6300 3400 5300 3400
+Wire Wire Line
+	6300 3050 6300 2900
+Connection ~ 6300 2900
+Wire Wire Line
+	6300 2900 7300 2900
+Wire Wire Line
+	6300 2550 6300 2400
+Connection ~ 6300 2400
+Wire Wire Line
+	6300 2400 5300 2400
+Connection ~ 6300 1900
+Wire Wire Line
+	6300 1900 7300 1900
+Wire Wire Line
+	6300 1900 6300 2050
+Wire Wire Line
+	6300 1550 6300 1400
+Connection ~ 6300 1400
+Wire Wire Line
+	6300 1400 7300 1400
+Wire Wire Line
+	5300 1400 5300 1550
+Connection ~ 5300 1400
+Wire Wire Line
+	5300 1400 6300 1400
+Connection ~ 4300 1400
+Wire Wire Line
+	4300 1400 5300 1400
+Wire Wire Line
+	4300 1400 4300 1550
+Wire Wire Line
+	4300 1900 4300 2050
+Connection ~ 4300 1900
+Wire Wire Line
+	4300 1900 5300 1900
+Wire Wire Line
+	4300 2400 4300 2550
+Connection ~ 4300 2400
+Wire Wire Line
+	4300 2400 3300 2400
+Wire Wire Line
+	4300 2900 4300 3050
+Connection ~ 4300 2900
+Wire Wire Line
+	4300 2900 5300 2900
+Wire Wire Line
+	3300 3050 3300 2900
+Connection ~ 3300 2900
+Wire Wire Line
+	3300 2900 4300 2900
+Connection ~ 3300 2400
+Wire Wire Line
+	3300 2400 2300 2400
+Wire Wire Line
+	3300 2400 3300 2550
+Wire Wire Line
+	3300 2050 3300 1900
+Connection ~ 3300 1900
+Wire Wire Line
+	3300 1900 4300 1900
+Wire Wire Line
+	3300 1550 3300 1400
+Connection ~ 3300 1400
+Wire Wire Line
+	3300 1400 4300 1400
+Wire Wire Line
+	7300 1400 8250 1400
+Connection ~ 7300 1400
+Wire Wire Line
+	7300 1900 8250 1900
+Connection ~ 7300 1900
+Wire Wire Line
+	7300 2400 8250 2400
+Connection ~ 7300 2400
+Wire Wire Line
+	7300 2900 8250 2900
+Connection ~ 7300 2900
+Wire Wire Line
+	7300 3400 8250 3400
+Connection ~ 7300 3400
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015BAAA
+P 1500 3050
+AR Path="/6015BAAA" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015BAAA" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BAAA" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BAAA" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BAAA" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015BAAA" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015BAAA" Ref="SW39"  Part="1" 
+AR Path="/601213E8/6015BAAA" Ref="SW4"  Part="1" 
+F 0 "SW39" H 1500 3335 50  0000 C CNN
+F 1 "14" H 1500 3244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1500 3250 50  0001 C CNN
+F 3 "~" H 1500 3250 50  0001 C CNN
+	1    1500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015BAB0
+P 1500 1550
+AR Path="/6015BAB0" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015BAB0" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BAB0" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BAB0" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BAB0" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015BAB0" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015BAB0" Ref="SW36"  Part="1" 
+AR Path="/601213E8/6015BAB0" Ref="SW1"  Part="1" 
+F 0 "SW36" H 1500 1835 50  0000 C CNN
+F 1 "11" H 1500 1744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1500 1750 50  0001 C CNN
+F 3 "~" H 1500 1750 50  0001 C CNN
+	1    1500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015BAB6
+P 1500 2050
+AR Path="/6015BAB6" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015BAB6" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BAB6" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BAB6" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BAB6" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015BAB6" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015BAB6" Ref="SW37"  Part="1" 
+AR Path="/601213E8/6015BAB6" Ref="SW2"  Part="1" 
+F 0 "SW37" H 1500 2335 50  0000 C CNN
+F 1 "12" H 1500 2244 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1500 2250 50  0001 C CNN
+F 3 "~" H 1500 2250 50  0001 C CNN
+	1    1500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015BABC
+P 1500 2550
+AR Path="/6015BABC" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015BABC" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BABC" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BABC" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BABC" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015BABC" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015BABC" Ref="SW38"  Part="1" 
+AR Path="/601213E8/6015BABC" Ref="SW3"  Part="1" 
+F 0 "SW38" H 1500 2835 50  0000 C CNN
+F 1 "13" H 1500 2744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1500 2750 50  0001 C CNN
+F 3 "~" H 1500 2750 50  0001 C CNN
+	1    1500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6015BAC2
+P 1500 3550
+AR Path="/6015BAC2" Ref="SW?"  Part="1" 
+AR Path="/601C0F6D/6015BAC2" Ref="SW?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BAC2" Ref="SW?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BAC2" Ref="SW?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BAC2" Ref="SW?"  Part="1" 
+AR Path="/60124365/601241BB/6015BAC2" Ref="SW?"  Part="1" 
+AR Path="/60124365/6015BAC2" Ref="SW40"  Part="1" 
+AR Path="/601213E8/6015BAC2" Ref="SW5"  Part="1" 
+F 0 "SW40" H 1500 3835 50  0000 C CNN
+F 1 "15" H 1500 3744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1500 3750 50  0001 C CNN
+F 3 "~" H 1500 3750 50  0001 C CNN
+	1    1500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BAC8
+P 1850 1700
+AR Path="/6015BAC8" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BAC8" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BAC8" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BAC8" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BAC8" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BAC8" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BAC8" Ref="D36"  Part="1" 
+AR Path="/601213E8/6015BAC8" Ref="D1"  Part="1" 
+F 0 "D36" V 1896 1620 50  0000 R CNN
+F 1 "D" V 1805 1620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1850 1700 50  0001 C CNN
+F 3 "~" H 1850 1700 50  0001 C CNN
+F 4 "" V 1850 1700 50  0001 C CNN "LCSC"
+	1    1850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BACE
+P 1850 2200
+AR Path="/6015BACE" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BACE" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BACE" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BACE" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BACE" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BACE" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BACE" Ref="D37"  Part="1" 
+AR Path="/601213E8/6015BACE" Ref="D2"  Part="1" 
+F 0 "D37" V 1896 2120 50  0000 R CNN
+F 1 "D" V 1805 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1850 2200 50  0001 C CNN
+F 3 "~" H 1850 2200 50  0001 C CNN
+F 4 "" V 1850 2200 50  0001 C CNN "LCSC"
+	1    1850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BAD4
+P 1850 2700
+AR Path="/6015BAD4" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BAD4" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BAD4" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BAD4" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BAD4" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BAD4" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BAD4" Ref="D38"  Part="1" 
+AR Path="/601213E8/6015BAD4" Ref="D3"  Part="1" 
+F 0 "D38" V 1896 2620 50  0000 R CNN
+F 1 "D" V 1805 2620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1850 2700 50  0001 C CNN
+F 3 "~" H 1850 2700 50  0001 C CNN
+F 4 "" V 1850 2700 50  0001 C CNN "LCSC"
+	1    1850 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BADA
+P 1850 3200
+AR Path="/6015BADA" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BADA" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BADA" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BADA" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BADA" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BADA" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BADA" Ref="D39"  Part="1" 
+AR Path="/601213E8/6015BADA" Ref="D4"  Part="1" 
+F 0 "D39" V 1896 3120 50  0000 R CNN
+F 1 "D" V 1805 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1850 3200 50  0001 C CNN
+F 3 "~" H 1850 3200 50  0001 C CNN
+F 4 "" V 1850 3200 50  0001 C CNN "LCSC"
+	1    1850 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6015BAE0
+P 1850 3700
+AR Path="/6015BAE0" Ref="D?"  Part="1" 
+AR Path="/601C0F6D/6015BAE0" Ref="D?"  Part="1" 
+AR Path="/60119728/6011ADD1/6015BAE0" Ref="D?"  Part="1" 
+AR Path="/60116EF8/6011ADD1/6015BAE0" Ref="D?"  Part="1" 
+AR Path="/601213E8/601241BB/6015BAE0" Ref="D?"  Part="1" 
+AR Path="/60124365/601241BB/6015BAE0" Ref="D?"  Part="1" 
+AR Path="/60124365/6015BAE0" Ref="D40"  Part="1" 
+AR Path="/601213E8/6015BAE0" Ref="D5"  Part="1" 
+F 0 "D40" V 1896 3620 50  0000 R CNN
+F 1 "D" V 1805 3620 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1850 3700 50  0001 C CNN
+F 3 "~" H 1850 3700 50  0001 C CNN
+F 4 "" V 1850 3700 50  0001 C CNN "LCSC"
+	1    1850 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 1550 1850 1550
+Wire Wire Line
+	1700 2050 1850 2050
+Wire Wire Line
+	1700 2550 1850 2550
+Wire Wire Line
+	1700 3050 1850 3050
+Wire Wire Line
+	1700 3550 1850 3550
+Wire Wire Line
+	1850 1850 2000 1850
+Wire Wire Line
+	2000 1850 2000 2350
+Wire Wire Line
+	2000 3850 1850 3850
+Wire Wire Line
+	2000 3850 2000 4000
+Connection ~ 2000 3850
+Wire Wire Line
+	1850 3350 2000 3350
+Connection ~ 2000 3350
+Wire Wire Line
+	2000 3350 2000 3850
+Wire Wire Line
+	1850 2850 2000 2850
+Connection ~ 2000 2850
+Wire Wire Line
+	2000 2850 2000 3350
+Wire Wire Line
+	1850 2350 2000 2350
+Connection ~ 2000 2350
+Wire Wire Line
+	2000 2350 2000 2850
+Wire Wire Line
+	1300 1550 1300 1400
+Wire Wire Line
+	1300 1400 2300 1400
+Wire Wire Line
+	1300 2050 1300 1900
+Wire Wire Line
+	1300 1900 2300 1900
+Wire Wire Line
+	1300 2400 1300 2550
+Wire Wire Line
+	1300 3050 1300 2900
+Wire Wire Line
+	1300 2900 2300 2900
+Wire Wire Line
+	1300 3400 1300 3550
+Wire Wire Line
+	2300 3400 1300 3400
+Wire Wire Line
+	2300 2400 1300 2400
+Connection ~ 2300 1400
+Connection ~ 2300 1900
+Connection ~ 2300 2400
+Connection ~ 2300 2900
+Connection ~ 2300 3400
+Text Label 4100 5950 0    50   ~ 0
+C1
+Text Label 4100 6050 0    50   ~ 0
+C2
+Text Label 4100 6150 0    50   ~ 0
+C3
+Text Label 4100 6250 0    50   ~ 0
+C4
+Text Label 4100 6350 0    50   ~ 0
+C5
+Text Label 4100 6450 0    50   ~ 0
+C6
+Text Label 4100 6550 0    50   ~ 0
+C7
+Wire Wire Line
+	3900 5950 4100 5950
+Wire Wire Line
+	4100 6050 3900 6050
+Wire Wire Line
+	3900 6150 4100 6150
+Wire Wire Line
+	4100 6250 3900 6250
+Wire Wire Line
+	3900 6350 4100 6350
+Wire Wire Line
+	4100 6450 3900 6450
+Wire Wire Line
+	3900 6550 4100 6550
+Text HLabel 2800 6650 0    50   Input ~ 0
+HAND_SELECT
+Text HLabel 2800 7000 0    50   Input ~ 0
+VCC
+$Comp
+L SparkFun-Connectors:CONN_04JST-PTH J1
+U 1 1 60558058
+P 9900 3100
+AR Path="/601213E8/60558058" Ref="J1"  Part="1" 
+AR Path="/60124365/60558058" Ref="J2"  Part="1" 
+F 0 "J2" H 9858 3710 45  0000 C CNN
+F 1 "CONN_04JST-PTH" H 9858 3626 45  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 9900 3600 20  0001 C CNN
+F 3 "" H 9900 3100 50  0001 C CNN
+	1    9900 3100
+	1    0    0    -1  
+$EndComp
+Text Label 10100 2800 0    50   ~ 0
+VCC
+Wire Wire Line
+	10000 2800 10100 2800
+$Comp
+L Switch:SW_Push SW72
+U 1 1 6034EFA8
+P 6000 5700
+AR Path="/60124365/6034EFA8" Ref="SW72"  Part="1" 
+AR Path="/601213E8/6034EFA8" Ref="SW71"  Part="1" 
+F 0 "SW72" V 5954 5848 50  0000 L CNN
+F 1 "Reset" V 6045 5848 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6000 5900 50  0001 C CNN
+F 3 "~" H 6000 5900 50  0001 C CNN
+	1    6000 5700
+	0    1    1    0   
+$EndComp
+Text Label 6000 6000 3    50   ~ 0
+GND
+Text Label 6000 5400 1    50   ~ 0
+RST
+Wire Wire Line
+	6000 5400 6000 5500
+Wire Wire Line
+	6000 5900 6000 6000
+Text Label 4100 5750 0    50   ~ 0
+RST
+Wire Wire Line
+	3900 5750 4100 5750
+Text HLabel 2800 7100 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2800 6650 3000 6650
+Wire Wire Line
+	3000 7000 2800 7000
+Wire Wire Line
+	3000 7100 2800 7100
+Text Label 3000 7100 0    50   ~ 0
+GND
+Text Label 3000 7000 0    50   ~ 0
+VCC
+Wire Wire Line
+	5300 1900 5300 2050
+Connection ~ 5300 1900
+Wire Wire Line
+	5300 1900 6300 1900
+Wire Wire Line
+	5300 2400 5300 2550
+Connection ~ 5300 2400
+Wire Wire Line
+	5300 2400 4300 2400
+Wire Wire Line
+	5300 2900 5300 3050
+Connection ~ 5300 2900
+Wire Wire Line
+	5300 2900 6300 2900
+$Comp
+L SparkFun-Aesthetics:OSHW-LOGOL LOGO2
+U 1 1 607E96F1
+P 8000 5500
+AR Path="/60124365/607E96F1" Ref="LOGO2"  Part="1" 
+AR Path="/601213E8/607E96F1" Ref="LOGO1"  Part="1" 
+F 0 "LOGO2" H 8000 5750 45  0001 C CNN
+F 1 "OSHW-LOGOL" H 8000 5100 45  0001 C CNN
+F 2 "OSHW-LOGO-L" H 8000 5800 20  0001 C CNN
+F 3 "" H 8000 5500 50  0001 C CNN
+F 4 "XXX-00000" H 8478 5435 60  0000 L CNN "Field4"
+	1    8000 5500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
