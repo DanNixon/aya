@@ -56,6 +56,19 @@ def generate_switch_orientations():
     return orientations
 
 
+def generate_partial_board_outline():
+    switch_positions = generate_switch_positions()
+
+    return np.array(
+        [
+            switch_positions[6, 4],
+            switch_positions[6, 3],
+            switch_positions[6, 0],
+            switch_positions[2, 0],
+        ]
+    )
+
+
 def generate_board_outline():
     switch_positions = generate_switch_positions()
 

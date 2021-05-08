@@ -9,7 +9,7 @@ clean:
 	rm -rf *.scad *.dxf left/ right/ left.zip right.zip
 
 .PHONY: case_panels
-case_panels: lower_panel.dxf upper_panel.dxf
+case_panels: combined_lower_panel.dxf lower_panel.dxf upper_panel.dxf
 
 .PHONY: pcb_layout
 pcb_layout: pcb_outline.dxf
