@@ -3,6 +3,8 @@
 Another split keyboard, because the world does not have enough split keyboards.
 Very, very inspired by the ErgoDox, but with more keys.
 
+![Aya](docs/both_sides.jpg)
+
 ## Hardware configuration
 
 1. Ensure PCB is up to date with schematic
