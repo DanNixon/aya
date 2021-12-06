@@ -5,15 +5,13 @@ Very, very inspired by the ErgoDox, but with more keys.
 
 ![Aya](docs/both_sides.jpg)
 
-## Hardware configuration
+[QMK target](https://github.com/qmk/qmk_firmware/tree/master/keyboards/aya)
 
-1. Ensure PCB is up to date with schematic
-2. `make pcb_layout`
-3. File > Import > Import Graphics...
-  - File: `pcb_outline.dxf`
-  - Placement: At: 0, 0
-  - Graphic layer: Edge.Cuts
-4. Route PCB
-5. `make pcb_split`
-6. Export gerbers and drill files for each half
-7. `make pcb_gerbers`
+## Features
+
+- Split
+- Column stagger
+- Symmetrical
+- Many keys
+- (optional combined back plate)
+- (optional 3D printable wrist rests)
