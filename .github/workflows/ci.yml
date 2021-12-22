@@ -1,0 +1,35 @@
+---
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases
+          sudo apt update
+          sudo apt install --yes --install-recommends kicad openscad
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate case panels
+        run: make case_panels
+
+      - name: PCB layout preprocessing
+        run: make pcb_layout
+
+      - name: PCB layout postprocessing
+        run: make pcb_split

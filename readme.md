@@ -1,4 +1,4 @@
-# Aya
+# Aya [![CI](https://github.com/DanNixon/aya/actions/workflows/ci.yml/badge.svg)](https://github.com/DanNixon/aya/actions/workflows/ci.yml)
 
 Another split keyboard, because the world does not have enough split keyboards.
 Very, very inspired by the ErgoDox, but with more keys.
