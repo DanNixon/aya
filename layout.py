@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
+
 import numpy as np
+import sys
 
 import utils
 
@@ -112,3 +115,25 @@ def generate_mounting_holes():
 def generate_mcu_position():
     switch_positions = generate_switch_positions()
     return switch_positions[0, 0] + np.array([-22., -10.])
+
+
+if __name__ == "__main__":
+    import json
+
+    display_mode = sys.argv[1]
+    var = sys.argv[2]
+    offset = np.array(json.loads(sys.argv[3]))
+
+    data = {
+        "board_outline": generate_board_outline,
+        "mounting_holes": generate_mounting_holes,
+    }[var]() + offset
+
+    if display_mode == "human":
+        print(f"{var}\n{data}")
+    elif display_mode == "freecad":
+        for point in data:
+            print(f"={point[0]}mm\t={point[1]}mm")
+    else:
+        print(f"Unknown display mode: {display_mode}")
+        sys.exit(1)
